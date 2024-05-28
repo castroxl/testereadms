@@ -1,49 +1,22 @@
-![Image](https://cdn.discordapp.com/attachments/958005633788030997/1009120998106345554/Verification_System.png)
+# Bot_Whitelist_FiveM
 
-# djs-verification-system
-This is a multi guild verification system for new users that join the server. You can use this to prevent raiders, bad people and many more! 
+Library: discord.js
 
-# MAJOR UPDATE!
-- Fixed interaction errors.
-- Added Modals.
-- Added random verification codes in modals.
+Library version: 13.1
 
-## Dependencies:
-> mongoose => `npm i mongoose`
+# Requirements
 
-> chalk => `npm i chalk@4.1.2`
+Node.js version >= 16
 
-> dotenv => `npm i dotenv`
-> randomized-string > `npm i randomized-string`
+Mysql server
 
-> randomized-string => `npm i randomized-string`
+# How to use
 
-# Instructions:
-> 1. Place the commands into your commands folder.
-> 2. Place the events in your events folder.
-> 3. Create a new folder in the bot root direcatory and name it "schemas", and than place the schema in there.
-> 4. Change all the paths to the right ones if needed.
+Open cmd on you directory, run command npm i.
 
-# MongoDB Connection:
-> be sure to add this to your ready.js file.
-```
-    // Add this to the top of the file
-    const { connect } = require('mongoose')
-    const chalk = require("chalk")
-    
-    // Add this to your ready.js file
-    await connect(MONGO_URI)
-      .then(() => {
-        console.log(chalk.yellow(`✅ >>> Successfully connected to MongoDB!`));
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-```
+Open the .env file and in TOKEN put your bot's token, in DB_HOST put your mysql server host, in DB_USER the mysql server user, DB_PASS the password and DB_DATABASE the name of your database!
 
-# Preview
-https://user-images.githubusercontent.com/91988772/185209732-74970fdc-c872-4a68-b0fb-8e538d83924e.mov
+Open cmd on you directory and run command node index.js!
 
 
-# Contributing:
-> if you want to contribute create a fork of this project and when you are done editing it update the fork and create a pull request.
+Credits: © Tralha Community, zTralha#1533 : discord.gg/tralhacommunity
