@@ -1,22 +1,10 @@
-# Bot_Whitelist_FiveM
-
-Library: discord.js
-
-Library version: 13.1
-
-# Requirements
-
-Node.js version >= 16
-
-Mysql server
-
-# How to use
-
-Open cmd on you directory, run command npm i.
-
-Open the .env file and in TOKEN put your bot's token, in DB_HOST put your mysql server host, in DB_USER the mysql server user, DB_PASS the password and DB_DATABASE the name of your database!
-
-Open cmd on you directory and run command node index.js!
+# Oauth2-Script-Bot-2022
+Oauth2-Script-Bot Public Oauth2 Discord Bot script with guild.join, cmd : help, users, links, joinall, wl list, wl add, wl remove,Bot discord auth edit and inspire from ytzmo auth bot Create By Ξl K4lash#9999
 
 
-Credits: © Tralha Community, zTralha#1533 : discord.gg/tralhacommunity
+
+
+
+Install Requirements
+
+npm install
